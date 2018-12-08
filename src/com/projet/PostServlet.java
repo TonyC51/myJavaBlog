@@ -28,7 +28,8 @@ public class PostServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		this.getServletContext().getRequestDispatcher("/WEB-INF/posts/index.jsp").forward(request, response);
-
+		var post = new Post(1, "Lol", "This is a LOL article");
+		request.setAttribute("posts", post);
 	}
 
 	/**
