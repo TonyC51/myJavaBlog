@@ -4,9 +4,10 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Posts</title>
 </head>
 <body>
-
+<h1>My posts</h1>
+<p> These are my posts</p>
 </body>
 </html>
